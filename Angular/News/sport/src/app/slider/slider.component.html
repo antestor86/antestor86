@@ -1,0 +1,7 @@
+<div class="content">
+    <div *ngFor="let item of articles" class="background">
+        <h1>{{ item.title }}</h1>
+        <a [href]="item.url">{{ item.url }}</a>
+        <img [src]="item.image" />
+    </div>
+</div>
